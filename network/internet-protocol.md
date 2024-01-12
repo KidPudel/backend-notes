@@ -1,0 +1,24 @@
+> `IP` - Internet protocol
+
+
+It has 4 layers, Application, Tranport, Internet, Network (physical)
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c312b26c-2049-4a41-8dca-aa90f900b9e4/db81279d-a665-4d34-97d0-fb21effde0c8/Untitled.png)
+
+# Application
+With which your browser communicate (HTTP to transfer website, SMTP for emails)
+> HTTP -
+>   - **H**yper**T**ext - Content you see on the screen AND it's a method of transfering between a server and client
+>   - **T**ransfer
+>   - **P**rotocol
+
+# Transport
+In this layer we send our data over internet using protocols like `TCP` or `UDP`
+> `TCP` chops data into a packages and sends them over individually, by the quickest allowed routs, as well as attaching header with instructions to compose it back, and if some package gets lost, we call it again to get missing packages.
+> `UDP` does the same, but it doesn't verify its integrity, which makes it faster (perfect for games)
+
+# Internet
+Assembles packages with header and attaching destination point with ip address
+
+# Network
+After that, packages are send to the physical machines using `MAC`, and converted into electrical impulses to go through serial tubes
+> `MAC` like ip address, but it's a local, physical address, attachet to the machine, to route to right machine
