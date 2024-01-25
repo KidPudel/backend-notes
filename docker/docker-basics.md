@@ -39,3 +39,18 @@ docker is reproducing envioronments
 by crrating a dockerfile tgat defines a blueprint for images
 images are a tamplets for running a container
 container is a running process like some application with defined environment 
+
+
+# When to use it?
+Use docker when you need to host something, isolate (to be indpendent, in self-containing environment), easily share and maintain.
+
+Imagine you have a software, that has dependencies or versions, so you want to ensure that software is running consistently in any enviornment, therefore using Docker will isolate application and its dependencies in containers, making it not rely on it's dependencies.
+- Isolation (not rely on dependencies)
+- Portability (because it encapsulates)
+- Microservices: Encapsulating power of docker, lets you isolate each part of the software, making it not depend on each other, making it easier to manage, scale and update individually
+- Versioning: Docker images can be versioning, making it easy to roll back
+- CI/CD: Docker provides consistent and reliable abstracted environment, that makes it easy to work with
+- Efficient: Containers shares a host OS kernels, unlike traditional virtualization
+- Simplification: Since we can encapsulate an app in it's own environment with it's dependencies already set there, it is easy to setup for devs
+- Easy to replace containers and adding new ones (for horizontal scaling)
+
