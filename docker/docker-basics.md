@@ -18,7 +18,7 @@ A few terms you should be familiar with (including a baking analogy for ease of 
 
 `Docker Image` – A snapshot or a blueprint for creating containers. Images are _immutable_ and all containers created from the same image are exactly alike, if you need to change an image, you create a brand new image. In our analogy this is the cookie cutter mould.
 
-`Dockerfile` – A text file containing a list of commands to call when creating a Docker Image. In our analogy this is the instructions to create the cookie cutter mould.
+`Dockerfile` – A text file containing a list of commands/set of instructions to call when creating a Docker Image. In our analogy this is the instructions to create the cookie cutter mould.
 
 # Why (as a data scientist) should I care?
 Broadly, there are two use cases for Docker in ML:
