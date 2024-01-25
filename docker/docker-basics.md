@@ -1,3 +1,6 @@
+# Docker
+Docker could be described, as an "_isolation tool_", that containerize an applications and their dependencies, for abstraction (standalone, independent, which makes it scalable), portability, scalability, versioning, etc.
+
 > We have a server. we can install on it virtual mashines and run it. or..  
 > We have a server. we install one operating system. and install a docker and create docker containers with different OS's.
 
