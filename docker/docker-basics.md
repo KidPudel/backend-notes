@@ -65,3 +65,10 @@ Imagine you have a software, that has dependencies or versions, so you want to e
 - Simplification: Since we can encapsulate an app in it's own environment with it's dependencies already set there, it is easy to setup for devs
 - Easy to replace containers and adding new ones (for horizontal scaling)
 
+# Analogy
+Imagine, you are living in a big grey city, and your memory of what what the nature looks like, what was the color of the leaves starting to fade.
+Then, I pay you a visit, and i show you my magical camera  with the brand name **_Docker_** that can take a pictures... or **_images_**.
+You become very curious about it.  
+Then i tell you that recently i've visited Switzerland and took some **_images_** for you.  
+You take it and stick it to the fridge... and stand in front of it. Then magic happens, you go through the image, and now you suddenly IN the Switzerland... all those beautiful mountains, crystal clear lakes, greenlandscapes, almost like a candy.  
+So instead of acquiring a Visa, buying a flight tickets, getting a car to get to that view, instead with a help of docker's image, you use everything that is already configured/ready for you to use, and you are good to go.
