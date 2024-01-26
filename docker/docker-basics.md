@@ -14,11 +14,16 @@ Virtual mashines virtualizes **hardware**, while _docker virtualizes **software*
 
 A few terms you should be familiar with (including a baking analogy for ease of understanding):
 
-`Docker Container` – A single instance of the application with all of the dependencies it needs, that is live and running. In our analogy, this is a cookie.
+- `Dockerfile` – A text file containing a list of commands/set of instructions to call when creating a Docker Image. In our analogy this is the instructions to create the cookie cutter mould.
 
-`Docker Image` – A snapshot or a blueprint for creating containers. Images are _immutable_ and all containers created from the same image are exactly alike, if you need to change an image, you create a brand new image. In our analogy this is the cookie cutter mould.
+- `Docker Image` – A snapshot or a blueprint for creating containers. Images are _immutable_ and all containers created from the same image are exactly alike, if you need to change an image, you create a brand new image. In our analogy this is the cookie cutter mould.
 
-`Dockerfile` – A text file containing a list of commands/set of instructions to call when creating a Docker Image. In our analogy this is the instructions to create the cookie cutter mould.
+- `Docker Container` – A single instance of the application with all of the dependencies it needs, that is live and running. In our analogy, this is a cookie.
+
+
+
+<img width="1582" alt="image" src="https://github.com/KidPudel/backend-notes/assets/63263301/e9dafbd2-4b52-42b2-b53e-c8c57b5d53f8">
+
 
 # Why (as a data scientist) should I care?
 Broadly, there are two use cases for Docker in ML:
