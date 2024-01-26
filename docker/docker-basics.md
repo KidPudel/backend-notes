@@ -22,7 +22,10 @@ A few terms you should be familiar with (including a baking analogy for ease of 
 
 
 
-<img width="1582" alt="image" src="https://github.com/KidPudel/backend-notes/assets/63263301/e9dafbd2-4b52-42b2-b53e-c8c57b5d53f8">
+<img width="700" alt="image" src="https://github.com/KidPudel/backend-notes/assets/63263301/e9dafbd2-4b52-42b2-b53e-c8c57b5d53f8">  
+
+<img width="700" alt="image" src="https://github.com/KidPudel/backend-notes/assets/63263301/8f392477-9fc1-4d4d-be47-76272dfe7b01">
+
 
 
 # Why (as a data scientist) should I care?
