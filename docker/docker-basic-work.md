@@ -41,7 +41,7 @@ COPY . ./app
 CMD node run ./app/main.js
 
 # Alternatively, we can navigate to the ./app directory, by switching working directory (like cd (current working directory)
-WORKDR
+WORKDR ./app
 CMD node run main.js
 ```
 
