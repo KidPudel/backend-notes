@@ -62,7 +62,9 @@ CMD node run main.js
   - also can be written as `docker image build -t IMAGENAME .`
 - `docker history [OPTIONS] IMAGENAME`: To see a history of an image
 - `docker image inspect [OPTIONS] IMAGENAME`: displays detailed imformation on one or more images
-- `docker image ls`: List images
+- `docker image ls`/ `docker images`: List images
+  <img width="631" alt="image" src="https://github.com/KidPudel/backend-notes/assets/63263301/a04f2b7e-ada6-4d6a-94f1-159a5e29bc43">
+
 ## Container
 - `docker container`: manages docker containers
 - `docker container exec CONTAINER COMMAND`: executes a command on a container
