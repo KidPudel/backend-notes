@@ -66,7 +66,7 @@ Imagine you have a software, that has dependencies or versions, so you want to e
 - Easy to replace containers and adding new ones (for horizontal scaling)
 
 # Analogy
-Imagine, you are living in a big grey city, and your memory of what what the nature looks like, what was the color of the leaves starting to fade.
+Imagine, you are living in a big grey city, and your memory of what the nature looks like, what was the color of the leaves starting to fade.
 Then, I pay you a visit, and i show you my magical camera  with the brand name **_Docker_** that can take a pictures... or **_images_**.
 You become very curious about it.  
 Then i tell you that recently i've visited Switzerland and took some **_images_** for you.  
