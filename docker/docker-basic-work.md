@@ -5,7 +5,7 @@ FROM node:18-alpline
 
 # Image is it's own space, so it has a file system
 # We can set our current working directory
-WORKDR ./app
+WORKDIR ./app
 
 # Now to copy the application into the image, we use COPY
 # Here we are saying: "Copy files in current project directory, into a certain directory in that image
@@ -41,7 +41,7 @@ COPY . ./app
 CMD node run ./app/main.js
 
 # Alternatively, we can navigate to the ./app directory, by switching working directory (like cd (current working directory)
-WORKDR ./app
+WORKDIR ./app
 CMD node run main.js
 ```
 
