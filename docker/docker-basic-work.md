@@ -50,7 +50,12 @@ CMD node run main.js
 - `-t`: name tag of a future Image
 - `.` is the path, that lets docker know, where it can find a dockerfile
 
-# Create a containter, by running Image
+After building an Image, we can list all of our images  
+`docker images`
+
+
+# Run an Image within a container
+`docker run NAME`
 
 
 
@@ -64,6 +69,8 @@ CMD node run main.js
 - `docker image inspect [OPTIONS] IMAGENAME`: displays detailed imformation on one or more images
 - `docker image ls`/ `docker images`: List images
   <img width="631" alt="image" src="https://github.com/KidPudel/backend-notes/assets/63263301/a04f2b7e-ada6-4d6a-94f1-159a5e29bc43">
+- `docker pull user/imagename`: retrieve / download an image from a registry (docker hub)
+- `docker push imagename`: publish / upload an image to a registry (docker hub)
 
 ## Container
 - `docker container`: manages docker containers
