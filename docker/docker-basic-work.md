@@ -67,4 +67,4 @@ CMD node run main.js
 - `docker container`: manages docker containers
 - `docker container exec CONTAINER COMMAND`: executes a command on a container
 - `docker container kill`: Kill container
-- `docker container run`: Create and run a container from an Image
+- `docker container run` / `docker run NAME`: Create and run a container from an Image
