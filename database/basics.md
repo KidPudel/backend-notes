@@ -3,6 +3,8 @@
 - `Table`/`Relation` (consists of 2 parts) (**it's not a collection of data, it is a description of an entity**)
   - `Schema`: description (or metadata), for example `wish`
   - `Instance`: An actual set of data satisfying the schema, for example: 1st `Rollerblades`, 2nd `Chair`
+- `Field` (Column, Attribute): Part of defining schema
+- `Record` (Row, Tuble): One instance of a data that is follows a whole schema of table
 
 
 > **_We design database based on logic/semantics that we want to convey._**
@@ -19,5 +21,11 @@ but since we cannot have in DB just a table `wishlist`, that has field `wishes` 
 In this example: Wish is accociated with it's list (wishlist), so by associating name of the wish group to each wish, we endup with wishes, that at its own instances all bounded to group/groups.
 
 # Relationship types
-## One to Many
+## One to Many / Many to One
 1 to many: When one record groups (bounding) depending on it, records (from other table), by appearing in other records multiple times (1 record, appears in many (many depend/relates on it) other records from other table)
+`Example`: 
+- One student can have many projects assigned to it
+- One project assigned to many students to be done in collaboration
+
+## Many to Many
+Many to Many: Both tables could have 
