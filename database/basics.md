@@ -35,3 +35,8 @@ Many to Many: Both tables could have their parts of records in another table.
 `Example`:
 - **One** `employee` could call to **Many** `customers`, _AND_ **One** `customer` could be contacted to **Many** `employees`
 - **One** `wishlist` could be viewed by **Many** `users`, _AND_ **One** `user` could view **Many** `wishlists`
+
+## One to One
+The most rare type of relation, where only **one** record depend on **one**
+`Example`:
+- **One** `Employee` could have **One** `Individual valid identity card`, and **One** `identity card` could be associated with **One** `Empoyee`
