@@ -17,3 +17,7 @@ but since we cannot have in DB just a table `wishlist`, that has field `wishes` 
 
 **`The way to go`**: Associate a relation, to where it belongs (groups, concentrate) in a DB (based on semantics).  
 In this example: Wish is accociated with it's list (wishlist), so by associating name of the wish group to each wish, we endup with wishes, that at its own instances all bounded to group/groups.
+
+# Relationship types
+## One to Many
+1 to many: When one record groups (bounding) depending on it, records (from other table), by appearing in other records multiple times (1 record, appears in many (many depend/relates on it) other records from other table)
