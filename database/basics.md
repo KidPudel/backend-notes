@@ -20,23 +20,3 @@ but since we cannot have in DB just a table `wishlist`, that has field `wishes` 
 **`The way to go`**: Associate a relation, to where it belongs (groups, concentrate) in a DB (based on semantics).  
 In this example: Wish is accociated with it's list (wishlist), so by associating name of the wish group to each wish, we endup with wishes, that at its own instances all bounded to group/groups.
 
-
-> **_Now lets think of a relations between each table_**
-
-# Relationship types
-## One to Many / Many to One
-1 to many: When one record groups (bounding) depending on it, records (from other table), by appearing in other records multiple times (1 record, appears in many (many depend/relates on it) other records from other table)
-`Example`: 
-- **One** `student` can have **many** `projects` assigned to it, or **One** `project` assigned to **many** `students` to be done in collaboration
-- **One** `wishlist` can store **Many** `wishes`
-
-## Many to Many
-Many to Many: Both tables could have their parts of records in another table.  
-`Example`:
-- **One** `employee` could call to **Many** `customers`, _AND_ **One** `customer` could be contacted to **Many** `employees`
-- **One** `wishlist` could be viewed by **Many** `users`, _AND_ **One** `user` could view **Many** `wishlists`
-
-## One to One
-The most rare type of relation, where only **one** record depend on **one**
-`Example`:
-- **One** `Employee` could have **One** `Individual valid identity card`, and **One** `identity card` could be associated with **One** `Empoyee`
