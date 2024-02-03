@@ -5,7 +5,7 @@ Network interfaces (hardware or software) allows communicating end points (phone
 # Loopback address
 Loopback address is a distinct reserved range of ip addresses 127.0.0.0 -> 127.255.255.255, that is used by devices to send and receive their own packets.  
 **_In other words_, address that used to direct operations (communicate), _within itself!_**
-> `127.0.0.1` is generally known as a loopback address in IPv4
+> `127.0.0.1` is generally known as a loopback address in IPv4 also known as `localhost`
 
 
 # Loopback interface
