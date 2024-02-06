@@ -7,6 +7,14 @@
 - **One** `student` can have **many** `projects` assigned to it, or **One** `project` assigned to **many** `students` to be done in collaboration
 - **One** `wishlist` can store **Many** `wishes`
 
+even if semantics are many to one (many projects, to one student) still, we think of it as one to many (one to many) what is the bigger, more important, has higher weight, A student in this case.
+
+We always reference more important thing (that is **ONE** to many) in many parts  (*it is logically*)
+
+- Person on its own
+- Project is taken by someone (person), → therefore, we reference a person in a project**s**
+- since we don’t store complex types like lists in a table, we store the thing that can be *common across many things.*
+
 ## Many to Many
 Many to Many: Both tables could have their parts of records in another table.  
 `Example`:
