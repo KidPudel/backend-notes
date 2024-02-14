@@ -20,3 +20,16 @@ but since we cannot have in DB just a table `wishlist`, that has field `wishes` 
 **`The way to go`**: Associate a relation, to where it belongs (groups, concentrate) in a DB (based on semantics).  
 In this example: Wish is accociated with it's list (wishlist), so by associating name of the wish group to each wish, we endup with wishes, that at its own instances all bounded to group/groups.
 
+
+# Basic syntax
+## Data definition
+
+```
+```
+```sql
+CREATE TABLE wish_list (
+  id int primary key,
+  name varchar(50)
+);
+```
+
