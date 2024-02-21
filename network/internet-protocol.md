@@ -2,7 +2,6 @@
 
 
 It has 4 layers, Application, Tranport, Internet, Network (physical)
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c312b26c-2049-4a41-8dca-aa90f900b9e4/db81279d-a665-4d34-97d0-fb21effde0c8/Untitled.png)
 
 # Application
 With which your browser communicate (HTTP to transfer website, SMTP for emails)
